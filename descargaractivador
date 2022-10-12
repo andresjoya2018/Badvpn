@@ -1,7 +1,5 @@
 #!/bin/bash
-clear
-bash activador
-sleep 20
+
 clear
 figlet MRX470 BadVPN
 echo "============================"
