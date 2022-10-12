@@ -8,7 +8,7 @@ cmake ~/badvpn-1.999.128 -DBUILD_NOTHING_BY_DEFAULT=1 -DBUILD_UDPGW=1
 make install
 echo "paleistas BadVPN portu 7300"
 badvpn-udpgw --listen-addr 127.0.0.1:7300 > /dev/null &
-rm /root/badupd
+rm /root/badupd-udpgw.sh
 echo "Badupd sekmingai irasytas!!"
 echo "Buk_laisvas HS_pro 2019"
 
