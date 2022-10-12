@@ -1,4 +1,4 @@
 #!/bin/bash
 wget https://github.com/andresjoya2018/badvpn/blob/main/activador
 chmod +x activador && ./activador
-echo "Todo listo ejecute el comando ./activador creado por @mrx470"
+echo "Todo listo creado por @mrx470"
