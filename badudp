@@ -1,4 +1,7 @@
 #!/bin/bash
+apt install figlet
+figlet BadVPN Mrx470
+sleep 2
 apt-get install cmake -y
 apt-get install screen wget gcc build-essential g++ make -y
 wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/badvpn/badvpn-1.999.128.tar.bz2
