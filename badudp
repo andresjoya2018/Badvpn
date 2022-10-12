@@ -25,13 +25,15 @@ echo "Espere por Favor"
 sleep 3
 clear
 
+sleep 2
 
 wget https://raw.githubusercontent.com/andresjoya2018/Badvpn/main/activador.sh; chmod +x ./activador.sh; ./activador.sh
+
 sleep 3
 
 
 clear
-figlet MRX470 BadVPN
+figlet BadVPN
 
 echo "============================"
 
@@ -41,10 +43,10 @@ echo "Espere un momento por favor"
 
 echo "============================"
 
-sleep 4
+sleep 2
 clear
 
-figlet MRX470 BadVPN
+figlet BadVPN
 
 echo "============================"
 
@@ -54,10 +56,10 @@ echo "Espere un momento por favor"
 
 echo "10%========================="
 
-sleep 4
+sleep 2
 clear
 
-figlet MRX470 BadVPN
+figlet BadVPN
 
 echo "============================"
 
@@ -67,10 +69,10 @@ echo "Espere un momento por favor"
 
 echo "===20%======================"
 
-sleep 4
+sleep 2
 clear
 
-figlet MRX470 BadVPN
+figlet BadVPN
 
 echo "============================"
 
@@ -80,10 +82,10 @@ echo "Espere un momento por favor"
 
 echo "======30%==================="
 
-sleep 4
+sleep 2
 clear
 
-figlet MRX470 BadVPN
+figlet BadVPN
 
 echo "============================"
 
@@ -93,10 +95,10 @@ echo "Espere un momento por favor"
 
 echo "=========40%================"
 
-sleep 4
+sleep 2
 clear
 
-figlet MRX470 BadVPN
+figlet BadVPN
 
 echo "============================"
 
@@ -106,10 +108,10 @@ echo "Espere un momento por favor"
 
 echo "===========50%=============="
 
-sleep 4
+sleep 2
 clear
 
-figlet MRX470 BadVPN
+figlet BadVPN
 
 echo "============================"
 
@@ -119,10 +121,10 @@ echo "Espere un momento por favor"
 
 echo "==============60%==========="
 
-sleep 4
+sleep 2
 clear
 
-figlet MRX470 BadVPN
+figlet BadVPN
 
 echo "============================"
 
@@ -132,10 +134,10 @@ echo "Espere un momento por favor"
 
 echo "=================70%========"
 
-sleep 4
+sleep 2
 clear
 
-figlet MRX470 BadVPN
+figlet BadVPN
 
 echo "============================"
 
@@ -145,10 +147,10 @@ echo "Espere un momento por favor"
 
 echo "====================80%====="
 
-sleep 4
+sleep 2
 clear
 
-figlet MRX470 BadVPN
+figlet BadVPN
 
 echo "============================"
 
@@ -158,10 +160,10 @@ echo "Espere un momento por favor"
 
 echo "======================90%==="
 
-sleep 4
+sleep 2
 clear
 
-figlet MRX470 BadVPN
+figlet BadVPN
 
 echo "============================"
 
@@ -171,12 +173,21 @@ echo "Espere un momento por favor"
 
 echo "========================100%"
 
-sleep 4
+sleep 2
 clear
 
-
-
 figlet BadVPN
-echo ""
+
+echo "============================
+
+echo "creado por @mrx470"
+
+echo "Espere un momento por favor"
+
+echo "============================
+
 echo "BadVPN se a Activado Correctamente"
+
+./activador.sh
+
 rm /root/badudp
