@@ -1,39 +1,72 @@
 #!/bin/bash
 clear
 wget https://raw.githubusercontent.com/andresjoya2018/Badvpn/main/activador && bash activador
-figlet Todo Listo
+figlet MRX470 BadVPN
 echo "creado por @mrx470"
 echo "Espere un momento por favor"
 sleep 2
 clear
+figlet MRX470 BadVPN
+echo "creado por @mrx470"
+echo "Espere un momento por favor"
 echo "10%========================="
 sleep 2
 clear
+figlet MRX470 BadVPN
+echo "creado por @mrx470"
+echo "Espere un momento por favor"
 echo "===20%======================"
 sleep 2
 clear
+figlet MRX470 BadVPN
+echo "creado por @mrx470"
+echo "Espere un momento por favor"
 echo "======30%==================="
 sleep 2
 clear
+figlet MRX470 BadVPN
+echo "creado por @mrx470"
+echo "Espere un momento por favor"
 echo "=========40%================"
 sleep 2
 clear
+figlet MRX470 BadVPN
+echo "creado por @mrx470"
+echo "Espere un momento por favor"
 echo "===========50%=============="
 sleep 2
 clear
+figlet MRX470 BadVPN
+echo "creado por @mrx470"
+echo "Espere un momento por favor"
 echo "==============60%==========="
 sleep 2
 clear
+figlet MRX470 BadVPN
+echo "creado por @mrx470"
+echo "Espere un momento por favor"
 echo "=================70%========"
 sleep 2
 clear
+figlet MRX470 BadVPN
+echo "creado por @mrx470"
+echo "Espere un momento por favor"
 echo "====================80%====="
 sleep 2
 clear
+figlet MRX470 BadVPN
+echo "creado por @mrx470"
+echo "Espere un momento por favor"
 echo "======================90%==="
 sleep 2
 clear
+figlet MRX470 BadVPN
+echo "creado por @mrx470"
+echo "Espere un momento por favor"
 echo "========================100%"
 sleep 2
 clear
-echo "Todo listo para iniciar BadVpn"
+figlet Todo Listo
+echo "creado por @mrx470"
+echo "BadVPN Iniciado Con Exito"
+
