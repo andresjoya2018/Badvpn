@@ -1,7 +1,6 @@
 #!/bin/bash
 apt-get update -y && apt-get upgrade -y && apt autoclean -y && apt autoremove
 apt install figlet
-wget https://raw.githubusercontent.com/andresjoya2018/Badvpn/main/activador
 sleep 3
 clear
 echo "Espere un momento Cargando paquetes!!"
@@ -15,21 +14,20 @@ tar xf badvpn-1.999.128.tar.bz2
 cd badvpn-1.999.128/
 cmake ~/badvpn-1.999.128 -DBUILD_NOTHING_BY_DEFAULT=1 -DBUILD_UDPGW=1
 make install
-badvpn-udpgw --listen-addr 127.0.0.1:7300 > /dev/null &
-rm /root/badudp
+screen -dmS screen /usr/local/bin/badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 1000 --max-connections-for-client 10
+
 sleep 5
 echo "Espere por Favor"
 clear
-figlet BadVPN Mrx470
+
 echo "BadVPN instalado correctamente!!"
-echo "Desing by @MRX470"
 echo "Espere por Favor"
-echo "BadVPN se activara automaticamente"
 sleep 3
 clear
 
 
 wget https://raw.githubusercontent.com/andresjoya2018/Badvpn/main/activador && bash activador
 sleep 3
+figlet BadVPN @MRX470
 echo "BadVPN se a Activado Correctamente"
-
+rm /root/badudp
