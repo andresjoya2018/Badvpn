@@ -1,3 +1,39 @@
 #!/bin/bash
-wget https://github.com/andresjoya2018/badvpn/blob/main/activador && bash activador
-echo "Todo listo creado por @mrx470"
+clear
+wget https://raw.githubusercontent.com/andresjoya2018/Badvpn/main/activador && bash activador
+figlet Todo Listo
+echo "creado por @mrx470"
+echo "Espere un momento por favor"
+sleep 2
+clear
+echo "10%========================="
+sleep 2
+clear
+echo "===20%======================"
+sleep 2
+clear
+echo "======30%==================="
+sleep 2
+clear
+echo "=========40%================"
+sleep 2
+clear
+echo "===========50%=============="
+sleep 2
+clear
+echo "==============60%==========="
+sleep 2
+clear
+echo "=================70%========"
+sleep 2
+clear
+echo "====================80%====="
+sleep 2
+clear
+echo "======================90%==="
+sleep 2
+clear
+echo "========================100%"
+sleep 2
+clear
+echo "Todo listo para iniciar BadVpn"
