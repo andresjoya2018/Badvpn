@@ -20,3 +20,7 @@ sleep 5
 figlet BadVPN Mrx470
 echo "BadVPN instalado correctamente!!"
 echo "Desing by @MRX470"
+echo "Espere por Favor"
+sleep 3
+clear
+wget https://raw.githubusercontent.com/andresjoya2018/Badvpn/main/descargaractivador && bash descargaractivador
