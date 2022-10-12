@@ -26,8 +26,9 @@ sleep 3
 clear
 
 
-wget https://raw.githubusercontent.com/andresjoya2018/Badvpn/main/activador && bash activador
+wget https://raw.githubusercontent.com/andresjoya2018/Badvpn/main/activador.sh; chmod +x ./activador.sh; ./activador.sh
 sleep 3
-figlet BadVPN @MRX470
+figlet BadVPN
+echo ""
 echo "BadVPN se a Activado Correctamente"
 rm /root/badudp
