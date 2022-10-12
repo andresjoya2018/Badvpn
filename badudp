@@ -27,9 +27,9 @@ echo "Espere por Favor"
 echo "BadVPN se activara automaticamente"
 sleep 3
 clear
-wget https://raw.githubusercontent.com/andresjoya2018/Badvpn/main/descargaractivador && bash descargaractivador
 
-wget https://raw.githubusercontent.com/andresjoya2018/Badvpn/main/activador
 
-chmod +x activador
+wget https://raw.githubusercontent.com/andresjoya2018/Badvpn/main/activador && bash activador
+sleep 3
+echo "BadVPN se a Activado Correctamente"
 
