@@ -182,12 +182,15 @@ echo "============================
 
 echo "creado por @mrx470"
 
-echo "Espere un momento por favor"
-
-echo "============================
-
 echo "BadVPN se a Activado Correctamente"
+
+echo "============================"
+
+
+echo "Ahora puede digitar menu para volver a ingresar a su escript"
+
 
 ./activador.sh
 
 rm /root/badudp
+
